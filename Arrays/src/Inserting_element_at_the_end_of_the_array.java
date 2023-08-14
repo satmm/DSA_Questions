@@ -57,7 +57,7 @@ public class Inserting_element_at_the_end_of_the_array {
         for (i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        
+
 
 
         System.out.println("Array elements before adding new elements:");
