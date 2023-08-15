@@ -1,4 +1,6 @@
-//
+                /* adding multiple elements at the end of the array */
+
+
 //import java.util.Scanner;
 //public class Inserting_element_at_the_end_of_the_array {
 //    public static void main(String[] args) {
@@ -40,6 +42,13 @@
 //    }
 //}
 
+
+
+
+
+
+    /* Another approach */
+
 import java.util.Scanner;
 
 public class Inserting_element_at_the_end_of_the_array {
@@ -78,5 +87,47 @@ public class Inserting_element_at_the_end_of_the_array {
         for (i = 0; i < n; i++) {
             System.out.println(arr[i]);
         }
+
     }
 }
+
+
+
+                /*      adding a single element at the last index */
+
+//import java.util.Scanner;
+//
+//public class Inserting_element_at_the_end_of_the_array {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int i;
+//
+//        System.out.println("Enter the size of the array:");
+//        int size = sc.nextInt();
+//        int[] arr = new int[size];
+//
+//        System.out.println("Enter the number of elements:");
+//        int n = sc.nextInt();
+//        System.out.println("Enter the array elements:");
+//        for (i = 0; i < n; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//
+//
+//
+//        System.out.println("Array elements before adding new elements:");
+//        for (i = 0; i < n; i++) {
+//            System.out.println(arr[i]);
+//        }
+//
+//        System.out.println("enter the new element");
+//        int newelement = sc.nextInt();
+//        arr[n]=newelement;
+//        for (i = 0; i <= n; i++) {
+//            System.out.println(arr[i]);
+//        }
+//
+//
+//    }
+//}
+//
